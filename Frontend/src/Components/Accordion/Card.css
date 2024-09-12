@@ -1,0 +1,44 @@
+
+.card-li{
+        display: flex;
+        flex-direction: column;
+        background:transparent;
+        padding: 0%;
+        cursor: pointer;
+        border-radius: 30px;
+        /* border: solid 1px #ffff; */
+        box-shadow: 4px 4px 9px rgb(212, 152, 212);
+        width: 40vw;
+}
+.card-li.open{
+        background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+        padding: 20px;
+        color: white; /* Ensure the text color contrasts with the background */
+        border-radius: 10px; 
+}
+.card-li.open * {
+        background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+        padding: 20px;
+        color: white; /* Ensure the text color contrasts with the background */
+        border-radius: 10px; 
+}
+.card-li div{
+        display: flex;
+        gap: 1.2rem;
+        align-items: center;
+}
+.card-li small{
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        margin-left: 2.3rem;
+        margin-right: 2.3rem;
+        padding-bottom:3% ;
+}
+
+.gradient-background-div {
+        padding: 0%;
+        background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+        padding: 20px;
+        color: white; /* Ensure the text color contrasts with the background */
+        border-radius: 10px; /* Optional: add some border radius for better appearance */
+      }

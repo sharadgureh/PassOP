@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mycontainer {
+    @apply container px-12 py-16 mx-auto;
+  }
+
+  .gradient-text {
+    background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+  }
+}
+.active{
+  padding-bottom: 4px;
+}
+.active::after {
+  content: '';
+  display: block;
+  padding-bottom:4px ;
+  height: 5px;
+  background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.relative{
+  position: relative;
+}

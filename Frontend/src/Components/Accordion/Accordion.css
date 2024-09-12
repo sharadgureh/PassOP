@@ -1,0 +1,29 @@
+
+main{
+        width: 36rem;
+}
+main h2{
+        color: white;
+        font-size: 2rem;
+
+}
+main p{
+        margin-bottom: 2rem;
+        color: white;
+}
+menu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+}
+
+.gradient-text-about {
+        background: linear-gradient(80deg, rgb(238, 172, 238), rgb(32, 13, 199));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+      }
+      .gradient-text-h4 {
+        background: linear-gradient(80deg, rgb(50, 3, 120), rgb(32, 13, 199));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+      }
